@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 203, 203;
+  --background-end-rgb: 164, 164, 235;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.custom-shape-divider-bottom-1698002495 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1698002495 svg {
+  position: relative;
+  display: block;
+  width: calc(182% + 1.3px);
+  height: 340px;
+}
+
+.custom-shape-divider-bottom-1698002495 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1698003734 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1698003734 svg {
+  position: relative;
+  display: block;
+  width: calc(182% + 1.3px);
+  height: 280px;
+}
+
+.custom-shape-divider-top-1698003734 .shape-fill {
+  fill: #FFFFFF;
+}
